@@ -3,7 +3,7 @@ var app = express();
 var response;
 
 app.get('/', function (req, res) {
-  response = 'This is version 2 of the app.' + '\n';
+  response = 'This is version 2 of the app.' + '\n' + 'Webhook implemented!' + '\n';
   res.send(response);
 });
 
